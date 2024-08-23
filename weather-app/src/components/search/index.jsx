@@ -12,6 +12,6 @@ export default function Search({search,setSearch,handleSearch}){
         value={search}
         onChange={(event)=>setSearch(event.target.value)}
         />
-        <button  onClick={handleSearch}>Search Whether</button>
+        <button  onClick={handleSearch}>Search</button>
     </div>
 }
